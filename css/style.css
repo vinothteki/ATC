@@ -44,12 +44,14 @@
     border: 1px solid #e5e5e5;
     margin-top:20px;
     padding:15px;
+    text-align:center;
 }
 .default-circle{
 	height:80px;
 	width:80px;
 	border-radius:50%;
     background-color:#57c3e7;
+    margin-left:60px;
 }
 .button {
     width: 100%;
@@ -85,4 +87,18 @@
     padding: 3%;
     
   }
-
+  @media (max-width: 994px){
+	.default-circle{
+        max-width: 100%;
+        margin:auto;
+	}
+}
+.grid-box h3 {
+    color: black;
+    padding-top:5px;
+}
+.default-circle img{
+    width:50px;
+    height:50px;
+    margin:15px;
+}
