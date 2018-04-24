@@ -11,12 +11,18 @@
     background-image: url(../img/start.jpg);
     background-repeat: no-repeat;
     background-size: auto;
+    background-repeat: no-repeat no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 
 .create-box.second-image{
     background-image: url(../img/image-new.jpeg);
     background-repeat: no-repeat;
     background-size: auto;
+    background-repeat: no-repeat no-repeat;
+    background-position:center;
+    background-size:cover;
 }
 .align-text{
     position: absolute;
