@@ -300,14 +300,38 @@ box-shadow: 0px 2px 14px -4px rgba(128, 128, 128, 0.65);
         height: 520px;
 }
 .navbar-dark .navbar-nav .nav-link {
-    color:#000;
+    color:#323232;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Nanum Myeongjo', serif;
+    font-size:19px;
+    padding: 13px 15px 8px 5px;
 }
 .bg-primary {
     background-color:#fff !important;
 }
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
-    color:#000;
+    color:blue;
+    /* font-family: 'Quicksand', sans-serif; */
+    font-family: 'Nanum Myeongjo', serif;
 }
 .navbar-dark .navbar-toggler-icon {
     background-image: url(../img/favicon.ico);
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color:#24aadf;
+    border-top: 4px solid #24aadf;
+    padding: 9px 9px 0px 0px;
+}
+
+/* clients */
+.first-contant.clients{
+    padding:60px;
+}
+.clients-grid{
+    background-color:#f5f6f8;
+}
+@media (max-width: 994px){
+	.grid-box img{
+            background-color:red;
+	}
 }
