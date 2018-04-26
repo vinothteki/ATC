@@ -325,13 +325,36 @@ box-shadow: 0px 2px 14px -4px rgba(128, 128, 128, 0.65);
 
 /* clients */
 .first-contant.clients{
-    padding:60px;
+    padding: 22px 0px 51px 0px;
+}
+.first-contant.clients.header{
+    padding: 60px;
 }
 .clients-grid{
     background-color:#f5f6f8;
 }
-@media (max-width: 994px){
+/* @media (max-width: 994px){
 	.grid-box img{
             background-color:red;
 	}
+} */
+.image-set-up img {
+    display: block;
+    margin: 0 auto;
+}
+.image-set-up{
+    padding: 0px 0px 0px 7px;
+width: 100%;
+height: 41%;
+}
+.button.clients {
+    padding-bottom: 50px;
+}
+.new-create.client {
+    background: none !important;
+    height: auto;
+}
+.col-md-6.offset-md-3 {
+    background-color:#f5f6f8;
+    margin-bottom: 80px;
 }
