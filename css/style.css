@@ -358,3 +358,31 @@ height: 41%;
     background-color:#f5f6f8;
     margin-bottom: 80px;
 }
+
+/* services */
+#services{
+    background-color: #f5f6f8;
+}
+.header-part {
+    min-height: 70px;
+    background: -webkit-linear-gradient(top,#4298b5,#2e697d);
+    background: linear-gradient(180deg,#4298b5,#2e697d);
+}
+.banner-services {
+    /* margin-top: 40px; */
+    height: 250px;
+    background-image: url(../img/it-services-banner.jpg);
+    background-repeat: no-repeat no-repeat;
+    background-position:center;
+    background-size:cover;
+    max-width:100%;
+  }
+
+  .header-part h5 {
+    padding-top: 20px;
+    /* margin-left:20px; */
+}
+.header-part span{
+    color: #ecfbff;
+    margin-left:2px;
+}
