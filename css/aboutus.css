@@ -1,0 +1,17 @@
+.header-services h1{
+    color: #143e63;
+}
+.header-services p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #666b71;
+}
+.service-box {
+    min-width: 188px;
+   border:2px solid gray;
+    height: 145px;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}

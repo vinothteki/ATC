@@ -386,3 +386,121 @@ height: 41%;
     color: #ecfbff;
     margin-left:2px;
 }
+.header-services {
+    text-align:center;
+    padding-top:60px;
+}
+.header-services h1{
+    color: #143e63;
+}
+.header-services p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    padding-top: 20px;
+    color: #666b71;
+}
+.service-box {
+    min-width: 188px;
+   border:2px solid gray;
+    height: 145px;
+    margin-bottom: 20px;
+    display: block;
+    margin: 0 auto;
+}
+/* about-us */
+.header-about-us{
+    padding: 50px 0px 16px 0px;
+    text-align:center;
+}
+.header-about-us h1{
+    color: #143e63;
+}
+.header-about-us p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #666b71;
+}
+.content-part h2{
+  
+    color: #0f4270;
+    font-size: 31px;
+}
+.content-part{
+    text-align: center;
+    margin-top:50px;
+}
+.align-grid {
+    font-family: 'Quicksand', sans-serif;
+    padding-top: 17px;
+    line-height: 36px;
+    color:#656c72;
+}
+/* .image-bg{
+    background-image:url('../img/banner-part.jpeg');
+    min-height:100px;
+    position:relative;
+    opacity:0.70;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:scroll;
+  } */
+  /* /* .image-bg {
+    background-image: url(../img/banner-part.jpeg);
+    min-height: 1024px;
+    position: relative;
+    opacity: 0.70;
+    /* background-position: center; */
+    /* background-size: contain;
+    background-repeat: no-repeat; */
+    /* background-attachment: fixed; */ 
+    .pimg1, .pimg2, .pimg3{
+        position:relative;
+        background-position:center;
+        background-size:cover;
+        background-repeat:no-repeat;
+        background-attachment:scroll;
+      }
+      .pimg1{
+        background-image:url('../img/way.jpg');    
+     min-height: 400px;
+      }
+      
+      .pimg2{
+        background-image:url('../img/nice.jpg');
+        min-height:400px;
+      }
+      .section-light{
+        background-color:#f4f4f4;
+        color:#666;
+      }
+      .section{
+        text-align:center;
+        padding:50px 80px;
+      }
+      /* .ptext {
+        position: absolute;
+        min-height: 136px;
+        border-left: 5px solid #fff;
+        background: rgba(0, 0, 0, 0.11);
+        padding: 20px 0px 3px 30px;
+        margin: 131px 0px 0px 0px;
+        color: #fff;
+        font-size: 27px;
+    } */
+    .ptext{
+        color:#fff;
+        font-size:27px;
+        margin:auto;
+        border-left: 5px solid #fff;
+        padding-left: 27px;
+       
+      }
+      
+      .text-align-down {
+        padding-top: 163px;
+        padding-bottom: 157px;
+    }
+    .row.service-list.about-us {
+        margin-top: 74px;
+    }
