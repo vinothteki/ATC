@@ -465,6 +465,7 @@ height: 41%;
     padding-top: 17px;
     line-height: 36px;
     color:#656c72;
+    padding-bottom: 25px;
 }
 /* .image-bg{
     background-image:url('../img/banner-part.jpeg');
@@ -622,6 +623,13 @@ text-align: left;
     left: 31px;
     font-size: 38px;
 }
+@media (max-width: 994px){
+    .grid-service-box.one p {
+       font-size:25px;
+       top: 200px;
+       left: 73px;
+    }
+    }
 .grid-service-box.two{
     /* background-image: url(../img/testingat.jpg);
     background-repeat: no-repeat;
@@ -633,6 +641,22 @@ text-align: left;
     border: 1px solid #bda57f;  
     min-height: 140px;
     margin-bottom: 20px;
+}
+@media (max-width: 994px){
+.grid-service-box.two p {
+    font-size: 25px!important;
+    position: absolute;
+    top: 65px!important;
+    left: 81px !important;
+}
+}
+@media (max-width: 994px){
+.grid-service-box.two {
+    max-width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 }
 .grid-service-box.two p {
     position: absolute;
@@ -661,6 +685,13 @@ text-align: left;
     /* color: #f77274; */
     font-size: 20px;
 }
+@media (max-width: 994px){
+    .grid-service-box.three p {
+        text-align: center;
+        top: 45px;
+        left: 60px;
+    }
+    }
 .grid-service-box.four{
     /* background-image: url(../img/testingag.jpeg);
     background-repeat: no-repeat;
@@ -679,6 +710,18 @@ text-align: left;
     /* color: #f77274; */
     font-size: 20px;
 }
+@media (max-width: 994px){
+    .grid-service-box.four p {
+        text-align: center;
+        top: 45px;
+        left: 60px;
+    }
+    }
+    @media (max-width: 994px){
+        .grid-service-box.four{
+            margin-bottom:20px;
+        }
+        }
 .grid-service-box.five{
     /* background-image: url(../img/trstingct.jpg);
     background-repeat: no-repeat;
@@ -690,6 +733,21 @@ text-align: left;
     min-height: 295px;
     /* background-color: #876c76; */
 }
+@media (max-width: 994px){
+    .grid-service-box.five{
+        margin-bottom:20px;
+    }
+    }
+    @media (max-width: 994px){
+        .grid-service-box.six{
+            margin-bottom:20px;
+        }
+        }
+        @media (max-width: 994px){
+            .grid-service-box.seven{
+                margin-bottom:20px;
+            }
+            }
 .grid-service-box.five p {
     position: absolute;
     top: 123px;
