@@ -550,7 +550,6 @@ height: 41%;
     .part-two{
        width:100%;
        min-height:100%;
-       background-color:red;
     }
 
     .part-one h1 {
@@ -593,6 +592,7 @@ text-align: left;
 }
 .grid-service-box{
     text-align:center;
+    color: #0b406E;
 }
 .grid-service-box:hover{
     box-shadow: 0 10px 20px rgba(0,0,0,0.1);
@@ -620,7 +620,6 @@ text-align: left;
     position: absolute;
     top: 198px;
     left: 31px;
-    color:#000;
     font-size: 38px;
 }
 .grid-service-box.two{
